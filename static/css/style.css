@@ -6,14 +6,42 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #e4fcf8;
+    background-color: #bee9eb;
 }
 
 
 /*NAVBAR*/
-.top{}
+.top{
+    background-color: rgb(12, 73, 97);
+}
 
-.nav-container{}
+.nav-container h1{ 
+    color: white;
+    padding: 10px; /*lo modificare mas tarde*/
+}
+
+/*esto quisas lo use mas tarde*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 35px;               /* Espacio entre los elementos de la lista */
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.nav-links li {
+  list-style: none;        /* Quita los puntos de la lista */
+}
+
+.nav-links li a {
+  text-decoration: none;   /* Quita el subrayado azul */
+  color: white;            /* Cambia el color del texto */
+}
 
 
 /*SECCION SOBRE MI*/
