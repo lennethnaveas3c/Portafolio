@@ -18,6 +18,7 @@ body{
 .nav-container h1{ 
     color: white;
     padding: 10px; /*lo modificare mas tarde*/
+    font-family: sans-serif;
 }
 
 /*esto quisas lo use mas tarde*/
@@ -45,21 +46,28 @@ ul{
 
 
 /*SECCION SOBRE MI*/
-.sobre-mi{}
+.sobre-mi{
+}
 
-.container{}
+.container{
+    margin: 35px;
+}
 
 
 /*SECCION PROYECTOS*/
 .proyectos{}
 
-.container2{}
+.container2{
+    margin: 35px;
+}
 
 
 /*SECCION EDUCACION*/
 .educacion{}
 
-.container3{}
+.container3{
+    margin: 35px;
+}
 
 
 /*SECCION EXPERIENCIA*/
