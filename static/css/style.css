@@ -92,7 +92,9 @@ ul {
 .proyectos {}
 
 .container2 {
-    margin: 35px;
+    margin: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -109,8 +111,25 @@ ul {
 .educacion {}
 
 .container3 {
-    margin: 35px;
+    margin: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 
 /*SECCION EXPERIENCIA*/
+
+footer{
+    background: linear-gradient(to right, #2b85a0, #1a4185);
+    color: #0c4961;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: white;
+}
