@@ -6,22 +6,30 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #bee9eb;
+    background-color: #c3eaec;
 }
 
 
 h2 {
     font-size: 36px;
     /*tamaño de las letras*/
-    color: #0c4961;
+    color: #1c4a89;
     margin-bottom: 20px;
+    font-family: 'fantasy';
+}
+
+h3 {
+    font-size: 28px;
+    /*tamaño de las letras*/
+    color: #2b84a0;
+    margin-bottom: 15px;
     font-family: 'fantasy';
 }
 
 p {
     font-size: 20px;
     /*tamaño de las letras*/
-    color: #0c4961;
+    color: #236894;
 }
 
 
