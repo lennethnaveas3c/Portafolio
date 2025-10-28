@@ -1,68 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #bee9eb;
 }
 
 
-h2{
-    font-size: 36px; /*tamaño de las letras*/
+h2 {
+    font-size: 36px;
+    /*tamaño de las letras*/
     color: #0c4961;
     margin-bottom: 20px;
     font-family: 'fantasy';
 }
 
-p{
-    font-size: 20px; /*tamaño de las letras*/
+p {
+    font-size: 20px;
+    /*tamaño de las letras*/
     color: #0c4961;
 }
 
 
 /*NAVBAR*/
-.top{
-    background-color: rgb(12, 73, 97);
+.top {
+    background: linear-gradient(to right, #2b85a0, #1a4185);
+    /* Cambia los colores a los que prefieras */
+    color: #0c4961;
+    /* si el fondo es oscuro */
+    font-family: 'Montserrat', sans-serif;
 }
 
-.nav-container h1{ 
+.nav-container h1 {
     color: white;
-    padding: 10px; /*lo modificare mas tarde*/
+    padding: 10px;
+    /*lo modificare mas tarde*/
     font-family: 'fantasy';
 }
 
 /*esto quisas lo use mas tarde*/
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
-ul{
+ul {
     display: flex;
-    gap: 35px;               /* Espacio entre los elementos de la lista */
+    gap: 35px;
+    /* Espacio entre los elementos de la lista */
     margin-top: 20px;
     font-size: 20px;
 }
 
 .nav-links li {
-  list-style: none;        /* Quita los puntos de la lista */
+    list-style: none;
+    /* Quita los puntos de la lista */
 }
 
 .nav-links li a {
-  text-decoration: none;   /* Quita el subrayado azul */
-  color: white;            /* Cambia el color del texto */
+    text-decoration: none;
+    /* Quita el subrayado azul */
+    color: white;
+    /* Cambia el color del texto */
 }
 
 
 /*SECCION SOBRE MI*/
-.sobre-mi{
-}
+.sobre-mi {}
 
-.container{
+.container {
     margin: 55px;
     margin-left: 100px;
     margin-right: 100px;
@@ -73,16 +83,16 @@ ul{
 
 
 /*SECCION PROYECTOS*/
-.proyectos{}
+.proyectos {}
 
-.container2{
+.container2 {
     margin: 35px;
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.proyectos-grid{
+.proyectos-grid {
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -90,9 +100,9 @@ ul{
 
 
 /*SECCION EDUCACION*/
-.educacion{}
+.educacion {}
 
-.container3{
+.container3 {
     margin: 35px;
 }
 
