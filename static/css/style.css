@@ -9,6 +9,17 @@ body{
     background-color: #bee9eb;
 }
 
+h2{
+    font-size: 36px; /*tamaño de las letras*/
+    color: #0c4961;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px; /*tamaño de las letras*/
+    color: #0c4961;
+}
+
 
 /*NAVBAR*/
 .top{
@@ -50,7 +61,9 @@ ul{
 }
 
 .container{
-    margin: 35px;
+    margin: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     align-items: center;
     gap: 30px;
