@@ -9,10 +9,12 @@ body{
     background-color: #bee9eb;
 }
 
+
 h2{
     font-size: 36px; /*tamaño de las letras*/
     color: #0c4961;
     margin-bottom: 20px;
+    font-family: 'fantasy';
 }
 
 p{
@@ -29,7 +31,7 @@ p{
 .nav-container h1{ 
     color: white;
     padding: 10px; /*lo modificare mas tarde*/
-    font-family: sans-serif;
+    font-family: 'fantasy';
 }
 
 /*esto quisas lo use mas tarde*/
