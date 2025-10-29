@@ -78,7 +78,6 @@ ul {
 
 
 /*SECCION SOBRE MI*/
-.sobre-mi {}
 
 .container {
     margin: 55px;
@@ -97,7 +96,6 @@ ul {
 }
 
 /*SECCION PROYECTOS*/
-.proyectos {}
 
 .container2 {
     margin: 55px;
@@ -134,9 +132,30 @@ ul {
 }
 
 /*SECCION EDUCACION*/
-.educacion {}
 
 .container3 {
+    margin: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.timeline li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*SECCION EDUCACION*/
+.container4 {
     margin: 55px;
     margin-left: 100px;
     margin-right: 100px;
