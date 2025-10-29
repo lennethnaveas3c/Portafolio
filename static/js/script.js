@@ -47,3 +47,10 @@ function eliminar(el) {
         alert("Acción cancelada.");
     }
 }
+
+
+
+// Evento onchange del input de contacto
+function nombreCambiado(el) {
+    alert("Has cambiado el nombre a: " + el.value);
+}

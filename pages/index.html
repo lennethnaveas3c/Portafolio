@@ -37,7 +37,7 @@
     <!-- ================== SECCIÓN SOBRE MÍ ================== -->
     <section id="sobre-mi" class="section">
         <div class="container d-flex flex-column flex-md-row align-items-center gap-3">
-            <img src="../resources/img/7bedc4747daae3dd3edb699ea2043ff1_7074456364602238252.webp" alt="Foto de Lenneth"
+            <img src="../resources/img/IMG-20250715-WA0006.jpeg" alt="Foto de Lenneth"
                 class="perfil-img">
             <div>
                 <h2>Sobre mí</h2>
@@ -49,35 +49,38 @@
         </div>
     </section>
 
-    <!-- ================== SECCIÓN PROYECTOS ================== -->
-    <section id="proyectos" class="section bg-light">
-        <div class="container2">
-            <h2>Proyectos</h2>
-            <div class="proyectos-grid row">
-                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
+<!-- ================== SECCIÓN PROYECTOS ================== -->
+<section id="proyectos" class="section bg-light">
+    <div class="container2">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid row">
+            <div class="proyecto-card col-md-6 mb-3" 
+                    onmouseover="resaltar(this)" 
+                    onmouseout="quitarResaltado(this)" 
                     onclick="eliminar(this)">
-                    <div class="card shadow-sm">
-                        <img src="../static/img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                            <h3>Tiempo</h3>
-                            <p>Sitio del tiempo</p>
-                        </div>
+                <div class="card shadow-sm">
+                    <img src="../static/img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h3>Tiempo</h3>
+                        <p>Sitio del tiempo</p>
                     </div>
                 </div>
-                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
+            </div>
+            <div class="proyecto-card col-md-6 mb-3" 
+                    onmouseover="resaltar(this)" 
+                    onmouseout="quitarResaltado(this)" 
                     onclick="eliminar(this)">
-                    <div class="card shadow-sm">
-                        <img src="../static/img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
-                        <div class="card-body">
-                            <h3>VideoLab</h3>
-                            <p>Sitio de videos</p>
-                        </div>
+                <div class="card shadow-sm">
+                    <img src="../static/img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h3>VideoLab</h3>
+                        <p>Sitio de videos</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 
 
     <!-- ================== SECCIÓN SERVICIOS ================== -->
@@ -149,17 +152,18 @@
         </div>
     </section>
 
-    <!-- ================== SECCIÓN CONTACTO ================== -->
-    <section id="contacto" class="section py-5">
-        <div class="container text-center">
-            <h2>Contacto</h2>
-            <form action="#" method="post" class="contact-form w-50 mx-auto">
-                <label>Nombre:</label>
-                <input type="text" name="nombre" class="form-control mb-2" required>
-                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-            </form>
-        </div>
-    </section>
+<!-- ================== SECCIÓN CONTACTO ================== -->
+<section id="contacto" class="section py-5">
+    <div class="container text-center">
+        <h2>Contacto</h2>
+        <form action="#" method="post" class="contact-form w-50 mx-auto">
+            <label>Nombre:</label>
+            <!-- Se agregó onchange -->
+            <input type="text" name="nombre" class="form-control mb-2" required onchange="nombreCambiado(this)">
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+    </div>
+</section>
 
     <!-- ================== FOOTER ================== -->
     <footer>

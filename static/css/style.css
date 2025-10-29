@@ -141,3 +141,10 @@ footer{
 footer p {
     color: white;
 }
+
+/* Hover solo con CSS para tarjetas de proyectos */
+.proyecto-card:hover {
+    background-color: #d9eff7;
+    transform: scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
