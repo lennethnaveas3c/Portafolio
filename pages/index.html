@@ -53,20 +53,31 @@
     <section id="proyectos" class="section bg-light">
         <div class="container2">
             <h2>Proyectos</h2>
-            <div class="proyectos-grid">
-                <div class="proyecto-card" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)">
-                    <img src="../static/img/proyecto1.jpg" alt="Proyecto 1">
-                    <h3>Tiempo</h3>
-                    <p>Sitio del tiempo</p>
+            <div class="proyectos-grid row">
+                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
+                    onclick="eliminar(this)">
+                    <div class="card shadow-sm">
+                        <img src="../static/img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h3>Tiempo</h3>
+                            <p>Sitio del tiempo</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="proyecto-card" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)">
-                    <img src="../static/img/proyecto2.jpg" alt="Proyecto 2">
-                    <h3>VideoLab</h3>
-                    <p>Sitio de videos</p>
+                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
+                    onclick="eliminar(this)">
+                    <div class="card shadow-sm">
+                        <img src="../static/img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h3>VideoLab</h3>
+                            <p>Sitio de videos</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <!-- ================== SECCIÓN SERVICIOS ================== -->

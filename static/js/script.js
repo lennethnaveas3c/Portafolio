@@ -25,13 +25,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ================== EFECTOS CON this ==================
 
-// Cambia el fondo cuando el mouse pasa por encima
+// Efecto hover con JS
 function resaltar(el) {
-    el.style.backgroundColor = "#d9eff7"; // azul clarito
-    el.style.transition = "background-color 0.3s ease";
+    el.style.backgroundColor = "#d9eff7";
+    el.style.transition = "background-color 0.3s ease, transform 0.3s ease";
+    el.style.transform = "scale(1.03)";
 }
 
-// Vuelve al color original cuando el mouse sale
 function quitarResaltado(el) {
     el.style.backgroundColor = "";
+    el.style.transform = "scale(1)";
+}
+
+// Remover un elemento del DOM al hacer clic con confirmación
+function eliminar(el) {
+    const confirmacion = confirm("¿Seguro que deseas eliminar este proyecto?");
+    if (confirmacion) {
+        alert("El proyecto ha sido eliminado.");
+        el.remove();
+    } else {
+        alert("Acción cancelada.");
+    }
 }
