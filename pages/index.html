@@ -37,11 +37,13 @@
     <!-- ================== SECCIÓN SOBRE MÍ ================== -->
     <section id="sobre-mi" class="section">
         <div class="container d-flex flex-column flex-md-row align-items-center gap-3">
-            <img src="../resources/img/7bedc4747daae3dd3edb699ea2043ff1_7074456364602238252.webp" alt="Foto de Lenneth" class="perfil-img">
+            <img src="../resources/img/7bedc4747daae3dd3edb699ea2043ff1_7074456364602238252.webp" alt="Foto de Lenneth"
+                class="perfil-img">
             <div>
                 <h2>Sobre mí</h2>
                 <p>
-                    Programadora en formacion, apasionada por el desarrollo web y la tecnología. Me encanta aprender nuevas habilidades y enfrentar desafíos que me permitan crecer profesionalmente.
+                    Programadora en formacion, apasionada por el desarrollo web y la tecnología. Me encanta aprender
+                    nuevas habilidades y enfrentar desafíos que me permitan crecer profesionalmente.
                 </p>
             </div>
         </div>
@@ -51,28 +53,21 @@
     <section id="proyectos" class="section bg-light">
         <div class="container2">
             <h2>Proyectos</h2>
-            <div class="proyectos-grid row">
-                <div class="proyecto-card col-md-6 mb-3">
-                    <div class="card shadow-sm">
-                        <img src="../static/img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                        <div class="card-body">
-                            <h3>Tiempo</h3>
-                            <p>Sitio del tiempo</p>
-                        </div>
-                    </div>
+            <div class="proyectos-grid">
+                <div class="proyecto-card" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)">
+                    <img src="../static/img/proyecto1.jpg" alt="Proyecto 1">
+                    <h3>Tiempo</h3>
+                    <p>Sitio del tiempo</p>
                 </div>
-                <div class="proyecto-card col-md-6 mb-3">
-                    <div class="card shadow-sm">
-                        <img src="../static/img/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
-                        <div class="card-body">
-                            <h3>VideoLab</h3>
-                            <p>Sitio de videos</p>
-                        </div>
-                    </div>
+                <div class="proyecto-card" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)">
+                    <img src="../static/img/proyecto2.jpg" alt="Proyecto 2">
+                    <h3>VideoLab</h3>
+                    <p>Sitio de videos</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- ================== SECCIÓN SERVICIOS ================== -->
     <section id="servicios" class="section py-5">

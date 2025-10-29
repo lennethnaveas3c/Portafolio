@@ -21,3 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+
+// ================== EFECTOS CON this ==================
+
+// Cambia el fondo cuando el mouse pasa por encima
+function resaltar(el) {
+    el.style.backgroundColor = "#d9eff7"; // azul clarito
+    el.style.transition = "background-color 0.3s ease";
+}
+
+// Vuelve al color original cuando el mouse sale
+function quitarResaltado(el) {
+    el.style.backgroundColor = "";
+}
