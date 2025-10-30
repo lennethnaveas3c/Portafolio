@@ -37,8 +37,7 @@
     <!-- ================== SECCIÓN SOBRE MÍ ================== -->
     <section id="sobre-mi" class="section">
         <div class="container d-flex flex-column flex-md-row align-items-center gap-3">
-            <img src="../resources/img/IMG-20250715-WA0006.jpeg" alt="Foto de Lenneth"
-                class="perfil-img">
+            <img src="../resources/img/IMG-20250715-WA0006.jpeg" alt="Foto de Lenneth" class="perfil-img">
             <div>
                 <h2>Sobre mí</h2>
                 <p>
@@ -49,38 +48,34 @@
         </div>
     </section>
 
-<!-- ================== SECCIÓN PROYECTOS ================== -->
-<section id="proyectos" class="section bg-light">
-    <div class="container2">
-        <h2>Proyectos</h2>
-        <div class="proyectos-grid row">
-            <div class="proyecto-card col-md-6 mb-3" 
-                    onmouseover="resaltar(this)" 
-                    onmouseout="quitarResaltado(this)" 
+    <!-- ================== SECCIÓN PROYECTOS ================== -->
+    <section id="proyectos" class="section bg-light">
+        <div class="container2">
+            <h2>Proyectos</h2>
+            <div class="proyectos-grid row">
+                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
                     onclick="eliminar(this)">
-                <div class="card shadow-sm">
-                    <img src="../resources/img/tiempo.png" class="card-img-top" alt="Proyecto 1">
-                    <div class="card-body">
-                        <h3>Tiempo</h3>
-                        <p>Sitio web sobre el tiempo</p>
+                    <div class="card shadow-sm">
+                        <img src="../resources/img/tiempo.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h3>Tiempo</h3>
+                            <p>Sitio web sobre el tiempo</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="proyecto-card col-md-6 mb-3" 
-                    onmouseover="resaltar(this)" 
-                    onmouseout="quitarResaltado(this)" 
+                <div class="proyecto-card col-md-6 mb-3" onmouseover="resaltar(this)" onmouseout="quitarResaltado(this)"
                     onclick="eliminar(this)">
-                <div class="card shadow-sm">
-                    <img src="../resources/img/videolad.png" class="card-img-top" alt="Proyecto 2">
-                    <div class="card-body">
-                        <h3>VideoLab</h3>
-                        <p>Sitio de videos</p>
+                    <div class="card shadow-sm">
+                        <img src="../resources/img/videolad.png" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h3>VideoLab</h3>
+                            <p>Sitio de videos</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- ================== SECCIÓN SERVICIOS ================== -->
@@ -130,10 +125,17 @@
     <!-- ================== SECCIÓN EDUCACIÓN ================== -->
     <section id="educacion" class="section">
         <div class="container3">
-            <h2>Educación</h2>
+            <h2>Educación y Referencias</h2>
             <ul class="timeline">
                 <li><strong>Liceo Comercial Vate Vicente Huidobro</strong></li>
                 <li><strong>2023-2025</strong></li>
+            </ul>
+
+            <ul class="timeline">
+                <li><strong>Dani Hernandez profesor de programacion</strong></li>
+                <li><strong>+56 9 2708 0394</strong></li>
+                <li><strong>Mauricio Medel profesor de programacion</strong></li>
+                <li><strong>+56 9 9583 0717</strong></li>
             </ul>
         </div>
     </section>
@@ -152,30 +154,24 @@
         </div>
     </section>
 
-<!-- ================== SECCIÓN CONTACTO ================== -->
-<section id="contacto" class="section py-5 bg-light">
-    <div class="container text-center">
-    <h2 class="mb-4">Contacto</h2>
+    <!-- ================== SECCIÓN CONTACTO ================== -->
+    <section id="contacto" class="section py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Contacto</h2>
 
-    <!-- Información de contacto -->
-    <p><strong>Correo:</strong> <a href="mailto:lennethnaveas@liceovvh.cl">lennethnaveas@liceovvh.cl</a></p>
-    <p><strong>Teléfono:</strong> <a href="tel:+56999999999">+56 9 9999 9999</a></p>
+            <!-- Información de contacto -->
+            <p><strong>Correo:</strong> <a href="mailto:lennethnaveas@liceovvh.cl">lennethnaveas@liceovvh.cl</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+56999999999">+56 9 9999 9999</a></p>
 
-    <!-- Formulario simple -->
-    <form action="#" method="post" class="contact-form w-50 mx-auto mt-4">
-        <label for="nombre" class="form-label">Nombre:</label>
-        <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        class="form-control mb-3"
-        required
-        onchange="nombreCambiado(this)"
-        >
-        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-    </form>
-    </div>
-</section>
+            <!-- Formulario simple -->
+            <form action="#" method="post" class="contact-form w-50 mx-auto mt-4">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control mb-3" required
+                    onchange="nombreCambiado(this)">
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
 
 
     <!-- ================== FOOTER ================== -->
